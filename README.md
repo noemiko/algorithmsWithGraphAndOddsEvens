@@ -1,8 +1,8 @@
 # GraphWithWages
 Run this algorithm using example input:
-
+```python
 python terrains_analyzer.py
-
+```
 Other way write code below:
 ```python
 terrains = TerrainsAnalyzer('path_to_file_with_data')
@@ -31,3 +31,25 @@ Rows under the number is terrain with travel cost.
 ```python
 python -m unittest unit_tests
 ```
+
+# OddsAndEvenBattle
+Run this algorithm using example input:
+
+```python
+python war.py
+```
+
+Other way write code below:
+
+```python
+battlefield_configuration = [randint(-1000, 1000) for _ in range(100)]
+war = War()
+war.calculate_battle(battlefield_configuration)
+```
+## Run tests 
+
+```python
+python -m unittest unit_tests
+```
+
+   
