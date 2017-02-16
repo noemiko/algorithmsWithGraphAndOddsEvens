@@ -12,7 +12,7 @@ To get smallest terrains travel cost write:
 ```python
 terrains.get_terrains_costs()
 ```
-## example data at file input:
+### example data at file input:
 ```
 2
 4, 6
@@ -26,7 +26,7 @@ terrains.get_terrains_costs()
 Row with one number represent terrain size.
 Rows under the number is terrain with travel cost.
 
-## Run tests 
+### Run tests 
 
 ```python
 python -m unittest unit_tests
@@ -46,7 +46,7 @@ battlefield_configuration = [randint(-1000, 1000) for _ in range(100)]
 war = War()
 war.calculate_battle(battlefield_configuration)
 ```
-## Run tests 
+### Run tests 
 
 ```python
 python -m unittest unit_tests
