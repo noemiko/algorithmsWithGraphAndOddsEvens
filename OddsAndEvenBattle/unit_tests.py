@@ -19,7 +19,7 @@ class TestWar(unittest.TestCase):
         binary_data = ['-1100100', '101', '1100100', '-1000']
         war = War()
         # when
-        result = war.count_battle_points(binary_data, 1)
+        result = war.count_battle_points(binary_data, '1')
         # then
         expected = {'positive': 4, 'negative': 5}
         self.assertEqual(result, expected)
@@ -29,7 +29,7 @@ class TestWar(unittest.TestCase):
         binary_data = ['-1100100', '101', '1100100', '-1000']
         war = War()
         # when
-        result = war.count_battle_points(binary_data, 0)
+        result = war.count_battle_points(binary_data, '0')
         # then
         expected = {'positive': 7, 'negative': 5}
         self.assertEqual(result, expected)
