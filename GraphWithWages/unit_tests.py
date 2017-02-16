@@ -71,7 +71,7 @@ class TestTerrains(unittest.TestCase):
         # given
         terrain = SquareTerrain([[2, 2], [2, 2]])
         # when
-        result = terrain.in_bounds((2, 2))
+        result = terrain.in_bounds_of_terrain((2, 2))
         # then
         self.assertFalse(result)
 
@@ -79,7 +79,7 @@ class TestTerrains(unittest.TestCase):
         # given
         terrain = SquareTerrain([[2, 2],[2, 2]])
         # when
-        result = terrain.in_bounds((1,1))
+        result = terrain.in_bounds_of_terrain((1,1))
         # then
         self.assertTrue(result)
 
