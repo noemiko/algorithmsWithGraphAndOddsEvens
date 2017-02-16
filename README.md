@@ -1,5 +1,5 @@
 # GraphWithWages
-Run this algorithm using example input:
+Run this algorithm with example input:
 ```python
 python terrains_analyzer.py
 ```
@@ -33,7 +33,7 @@ python -m unittest unit_tests
 ```
 
 # OddsAndEvenBattle
-Run this algorithm using example input:
+Run this algorithm with example input:
 
 ```python
 python war.py
